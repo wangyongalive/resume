@@ -27,8 +27,25 @@
         </dd>
       </dl>
       <dl>
-        <dt><i class="iconfont icon-bookmark"></i> Expectation. 期望</dt>
-        <dd>爱前端，更爱可视化.希望公司能给我一次提升我能力的实习机会</dd>
+        <dt><i class="iconfont icon-bookmark"></i> Tech. 技能点</dt>
+        <dd>
+          JavaScript
+        </dd>
+        <dd>
+          HTML
+        </dd>
+        <dd>
+          CSS
+        </dd>
+        <dd>
+          D3
+        </dd>
+        <dd>
+          Echarts
+        </dd>
+        <dd>
+          Vue
+        </dd>
       </dl>
     </div>
   </div>
