@@ -54,52 +54,9 @@
 <script>
   export default {
     name: 'HelloWorld',
-    data() {
-      return {
-        msg: 'Welcome to Your Vue.js App'
-      }
-    }
   }
 </script>
 
 <style scoped lang="less">
-  .sideBar {
-    /*title 开始*/
-
-    h1 {
-      text-align: center;
-      font-size: 28px;
-      font-weight: 400;
-    }
-
-    img {
-      width: 150px;
-      border-radius: 50%;
-      margin: 5px auto;
-      display: block;
-    }
-
-    /*title 结束*/
-
-    /*info 开始*/
-
-    .info {
-      margin-left: 5px;
-      font-size: 14px;
-
-      dt {
-        color: #9f3;
-        margin-bottom: 5px; /*标题距离内容的距离*/
-      }
-
-
-      a {
-        color: #fff;
-        text-decoration: none;
-      }
-    }
-
-    /*info 结束*/
-  }
-
+  @import 'sideBar';
 </style>
