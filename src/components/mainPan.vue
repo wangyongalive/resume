@@ -25,10 +25,10 @@
         </div>
         <div id="containVideo">
           <button v-on:click="show">{{this.text}}</button>
-          <!--<video src="../../static/aaa.mp4"-->
-          <!--style="position:absolute;display: none;left: 30%;top:0"-->
-          <!--width="50%" height="50%" controls="controls" id="video">-->
-          <!--Your browser does not support the video tag.-->
+          <!--<video src="../../static/媒体1.mp4"-->
+                 <!--style="position:absolute;display: block;left: 30%;top:0"-->
+                 <!--width="50%" height="50%" controls="controls" id="video">-->
+            <!--Your browser does not support the video tag.-->
           <!--</video>-->
         </div>
 
@@ -75,10 +75,12 @@
         this.flag = !this.flag;
       },
       create() {
+
         let width = document.body.clientWidth;
         let video = document.createElement('video');
         video.id = 'video';
-        video.src = "../../static/aaa.mp4";
+        // video.src = "../../static/媒体1.mp4";
+        video.src = "https://github.com/wangyongalive/resume/blob/master/static/aaa.mp4";
         video.style = "position:absolute;left: 30%;top:0;display:block";
         video.width = width / 2;
         video.height = '400';
