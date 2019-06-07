@@ -79,7 +79,7 @@
         let width = document.body.clientWidth;
         let video = document.createElement('video');
         video.id = 'video';
-        video.src = "../static/媒体1.mp4"; // 打包的时候 只要使用../
+        video.src = "/static/媒体1.mp4"; // 打包的时候 只要使用../
         // video.src = "../../static/媒体1.mp4"; // 打包的时候 只要使用../
         video.style = "position:absolute;left: 30%;top:0;display:block";
         video.width = width / 2;
@@ -87,6 +87,7 @@
         video.autoplay="autoplay";
         video.controls = "controls";
         document.getElementById('containVideo').appendChild(video);
+        console.log('222');
       }
     }
   }
