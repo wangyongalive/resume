@@ -89,6 +89,7 @@
         video.controls = "controls";
         document.getElementById('containVideo').appendChild(video);
         console.log('222');
+        console.log('333');
       }
     }
   }
