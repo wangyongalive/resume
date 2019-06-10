@@ -4,7 +4,9 @@
     <div id="blocker"></div>
     <button id="btn" @click="close"></button>
     <div id="discribe">
-       该视频演示了系统的操作过程，视频会自动播放
+      <p style=" font-size:18px; color: #111;">
+        &nbsp;&nbsp;&nbsp;&nbsp;该视频演示了系统的操作过程，视频会自动播放。
+      </p>
     </div>
   </div>
 </template>
