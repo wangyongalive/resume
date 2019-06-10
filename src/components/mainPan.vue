@@ -24,7 +24,7 @@
           <p style="margin: 0 auto;width: 210px;display: block">网络拓扑结构可视化系统截图</p>
         </div>
         <div id="containVideo">
-          <button v-on:click="show">{{this.text}}</button>
+          点我啊：<button v-on:click="show" id="player" title="项目演示"></button>
         </div>
 
       </dd>
@@ -74,4 +74,12 @@
 
 <style scoped lang="less">
   @import "mainPan";
+  #player{
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url("../assets/播放.png");
+    background-size: 20px 20px;
+  }
 </style>

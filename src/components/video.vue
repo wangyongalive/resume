@@ -3,6 +3,9 @@
     <div id="container"></div>
     <div id="blocker"></div>
     <button id="btn" @click="close"></button>
+    <div id="discribe">
+       该视频演示了系统的操作过程，视频会自动播放
+    </div>
   </div>
 </template>
 
@@ -150,5 +153,12 @@
     border: none;
     background: url("../assets/关闭.png");
     background-size: 50px 50px;
+  }
+
+  #discribe {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    width: 20%;
   }
 </style>
