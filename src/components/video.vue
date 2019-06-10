@@ -79,9 +79,9 @@
 
         let group = new THREE.Group();
         group.add(new Element('SJOz3qjfQXU', 0, 0, 240, 0));
-        group.add(new Element('Y2-xZ-1HE-Q', 240, 0, 0, Math.PI / 2));
-        group.add(new Element('IrydklNpcFI', 0, 0, -240, Math.PI));
-        group.add(new Element('9ubytEsCaS0', -240, 0, 0, -Math.PI / 2));
+        // group.add(new Element('Y2-xZ-1HE-Q', 240, 0, 0, Math.PI / 2));
+        // group.add(new Element('IrydklNpcFI', 0, 0, -240, Math.PI));
+        // group.add(new Element('9ubytEsCaS0', -240, 0, 0, -Math.PI / 2));
         this.scene.add(group);
 
         this.controls = new TrackballControls(this.camera);
