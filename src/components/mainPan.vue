@@ -25,11 +25,6 @@
         </div>
         <div id="containVideo">
           <button v-on:click="show">{{this.text}}</button>
-          <!--<video src="../../static/媒体1.mp4"-->
-                 <!--style="position:absolute;display: block;left: 30%;top:0"-->
-                 <!--width="50%" height="50%" controls="controls" id="video">-->
-            <!--Your browser does not support the video tag.-->
-          <!--</video>-->
         </div>
 
       </dd>
@@ -70,27 +65,8 @@
     },
     methods: {
       show() {
-        this.flag == true ? this.create() : document.getElementById('video').remove();
-        this.flag !== true ? this.text = "项目演示" : this.text = "关闭演示";
-        this.flag = !this.flag;
+        this.$store.commit('change', true);
       },
-      create() {
-
-        let width = document.body.clientWidth;
-        let video = document.createElement('video');
-        video.id = 'video';
-        video.src = "./媒体1.mp4"; // 打包的时候 只要使用../
-        // video.src = "https://github.com/wangyongalive/resume/blob/master/static/媒体1.mp4"; // 打包的时候 只要使用../
-        // video.src = "../../static/媒体1.mp4"; // 打包的时候 只要使用../
-        video.style = "position:absolute;left: 30%;top:0;display:block";
-        video.width = width / 2;
-        video.height = '400';
-        video.autoplay="autoplay";
-        video.controls = "controls";
-        document.getElementById('containVideo').appendChild(video);
-        console.log('222');
-        console.log('333');
-      }
     }
   }
 </script>
