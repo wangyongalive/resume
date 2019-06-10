@@ -5,7 +5,7 @@
     <button id="btn" @click="close"></button>
     <div id="discribe">
       <p style=" font-size:18px; color: #111;">
-        &nbsp;&nbsp;&nbsp;&nbsp;该视频演示了系统的操作过程，视频会自动播放。
+        &nbsp;&nbsp;&nbsp;&nbsp;该视频演示了系统的操作过程，视频会自动播放。由于网速原因，视频加载可能会比较慢，请等一等。
       </p>
     </div>
   </div>
