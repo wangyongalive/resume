@@ -47,6 +47,11 @@
           Vue
         </dd>
       </dl>
+      <dl>
+        <dt><i class="iconfont icon-bookmark"></i>简历在线地址：</dt>
+        <dd><i class="iconfont icon-github"></i><a href="https://github.com/wangyongalive" target="_blank">https://github.com/wangyongalive/resume</a>
+        </dd>
+      </dl>
     </div>
   </div>
 </template>
