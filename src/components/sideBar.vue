@@ -8,8 +8,9 @@
       <dl>
         <dt><i class="iconfont icon-bookmark"></i> Contact. 联系方式</dt>
         <dd><i class="iconfont icon-weixin"></i> 微信: JsonWang0102</dd>
-        <dd><i class="iconfont icon-QQ"></i> 邮箱: <a href="mailto:1042348844@qq.com"
-                                                    target="_blank">1042348844@qq.com</a>
+        <dd><i class="iconfont icon-weixin"></i> 手机: 18380594091</dd>
+        <dd><i class="iconfont icon-QQ"></i> 邮箱: <a href="mailto:jsonwang0102@163.com"
+                                                    target="_blank">jsonwang0102@163.com</a>
         </dd>
         <dd><i class="iconfont icon-youxiang"></i> QQ: 1042348844</dd>
       </dl>
@@ -45,6 +46,9 @@
         </dd>
         <dd>
           Vue
+        </dd>
+        <dd>
+          Flask
         </dd>
       </dl>
       <dl>
